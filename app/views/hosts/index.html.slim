@@ -1,0 +1,15 @@
+table
+  tbody
+    - @hosts.each do |host|
+      tr
+        td = host.id
+        td = host.user_color
+        td = host.sessions_alive_count
+        td = host.ip_address
+        td = host.name
+        td = host.os_name
+        td = host.logged_users
+        td = host.user_accounts
+        td = host.info
+        td = host.comment
+        td = host.action_status
